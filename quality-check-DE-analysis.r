@@ -122,9 +122,9 @@ d1.idx<-rowSums(cpm(d1)>1) >= 3
     
 ## check the dimension of the data    
     dim(d1.f)
-#   [1] 19383    18
+#   [1] 17291    18
     dim(d1.add.f)
-#   [1] 18944    12    
+#   [1] 16683    12    
     
 ## check the expression after filtering the lowly expressed genes    
 ### boxplots 
